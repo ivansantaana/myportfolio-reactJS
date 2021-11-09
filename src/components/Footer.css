@@ -137,6 +137,23 @@
   margin-bottom: 16px;
 }
 
+.website-politics{
+  color: #908E8E;
+}
+
+.website-politics:hover {
+  color: #fff;
+}
+
+.conditions{
+  color: #908E8E;
+  text-decoration: none;
+}
+
+.conditions:hover{
+  color: #fff;;
+}
+
 @media screen and (max-width: 820px) {
   .footer-links {
     padding-top: 2rem;

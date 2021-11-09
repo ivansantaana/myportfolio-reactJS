@@ -12,11 +12,11 @@ function HeroSection() {
 
       <div className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' >
-          VISIT MY PORTFOLIO
+          VISIT MY GITLAB
         </Button>
 
         <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={console.log('hey')} >
-          DOWNLOAD MY CV <i className='far fa-play-circle' />
+          COSITAS VARIAS
         </Button>
         
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import Button from '@material-ui/core/Button';
 
 import '../App.css';
 import './HeroSection.css';
@@ -13,21 +13,24 @@ function HeroSection() {
 
       <div className='hero-btns'>
         <Button 
-          variant="outline-primary"
+          variant="outlined" 
           href="https://gitlab.com/ivansantaana"
-          > 
-          VISITA MY GITLAB 
-        </Button>
+          size="large"
 
+        > VISITA MI GITLAB </Button>
         <Button 
-          variant="primary"
-          >
-          DESCARGA MY CV
-        </Button>
+          variant="contained"
+          size="large"
+
+        > DESCARGA MI CV </Button>
+
+
       </div>
-      
     </div>
   );
 }
 
 export default HeroSection;
+
+//<Button>VISITA MI GITLAB</Button>
+// <Button>DESCARGA MI CV</Button>

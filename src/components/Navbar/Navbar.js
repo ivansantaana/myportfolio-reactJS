@@ -45,16 +45,16 @@ function Navbar()
             </li>
             <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu} >
-                About me
+                Sobre mi
               </Link>
             </li>
             <li>
               <Link to='/portfolio' className='nav-links-mobile' onClick={closeMobileMenu}>
-                My Portfolio
+                Mi Portfolio
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>My Portfolio</Button>}
+          {button && <Button buttonStyle='btn--outline'>Mi Portfolio</Button>}
         </div>
       </nav>
     </>

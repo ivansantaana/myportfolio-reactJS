@@ -4,9 +4,26 @@ import styled from 'styled-components';
 import '../App.css';
 import './HeroSection.css';
 
-const Button = styled.button`
-background: ${props => props.primary ? "white" : "transparent"};
-color: ${props => props.primary ? "black" : "white"};
+const GitlabButton = styled.button`
+  background: transparent;
+  color: white;
+  padding: 15px 29px;
+  border-radius: 2px;
+  text-transform: uppercase; 
+  border: 1px solid white;
+  margin: 0.5em 1em;
+  cursor: pointer;
+  font-size: 1em;
+  transition: all .3s ease;
+
+  &:hover {
+    background: blue;
+  }
+`
+
+const CVButton = styled.button`
+background: white;
+color: black;
 padding: 15px 29px;
 border-radius: 2px;
 text-transform: uppercase; 
@@ -14,7 +31,11 @@ border: 1px solid white;
 margin: 0.5em 1em;
 cursor: pointer;
 font-size: 1em;
-`;
+
+&:hover {
+  background: blue;
+}
+`
 
 export default function HeroSection() {
   return (
@@ -25,10 +46,10 @@ export default function HeroSection() {
 
       <div className='hero-btns'>
         <a href="https://gitlab.com/ivansantaana" target="_blank">
-          <Button>VISITA MI GITLAB</Button>
+          <GitlabButton>VISITA MI GITLAB</GitlabButton>
         </a>
         
-        <Button primary>DESCARGA MI CV</Button>
+        <CVButton primary>DESCARGA MI CV</CVButton>
       </div>
     </div>
   );

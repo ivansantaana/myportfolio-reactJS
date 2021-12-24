@@ -49,8 +49,8 @@ function Navbar()
               </Link>
             </li>
             <li>
-              <Link to='/products' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Portfolio
+              <Link to='/portfolio' className='nav-links-mobile' onClick={closeMobileMenu}>
+                My Portfolio
               </Link>
             </li>
           </ul>

@@ -24,11 +24,10 @@ export default function HeroSection() {
       <p>¿A qué estas esperando?</p>
 
       <div className='hero-btns'>
-      <a href="https://gitlab.com/ivansantaana" target="_blank">
-        <Button>VISITA MI GITLAB</Button>
-      </a>
-
-
+        <a href="https://gitlab.com/ivansantaana" target="_blank">
+          <Button>VISITA MI GITLAB</Button>
+        </a>
+        
         <Button primary>DESCARGA MI CV</Button>
       </div>
     </div>

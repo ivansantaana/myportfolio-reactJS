@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
-import SignUp from './components/pages/SignUp';
 import Portfolio from './components/pages/Portfoliio';
 
 import './App.css';
@@ -17,7 +16,6 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-          <Route path='/sign-up' component={SignUp} />
           <Route path='/portfolio' component={Portfolio} />
         </Switch>
       </Router>

@@ -1,6 +1,7 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+
 import '../App.css';
-import { Button } from './Button/Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -11,14 +12,18 @@ function HeroSection() {
       <p>¿A qué estas esperando?</p>
 
       <div className='hero-btns'>
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' >
-          VISITA MI GITLAB
+        <Button 
+          variant="outline-primary"
+          href="https://gitlab.com/ivansantaana"
+          > 
+          VISIT MY GITLAB 
         </Button>
 
-        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={console.log('hey')} >
-          DESCARGA MI CV
+        <Button 
+          variant="primary"
+          >
+          DOWNLOAD MY CV
         </Button>
-        
       </div>
       
     </div>

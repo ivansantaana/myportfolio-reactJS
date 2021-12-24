@@ -16,13 +16,13 @@ function HeroSection() {
           variant="outline-primary"
           href="https://gitlab.com/ivansantaana"
           > 
-          VISIT MY GITLAB 
+          VISITA MY GITLAB 
         </Button>
 
         <Button 
           variant="primary"
           >
-          DOWNLOAD MY CV
+          DESCARGA MY CV
         </Button>
       </div>
       

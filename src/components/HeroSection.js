@@ -1,10 +1,30 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import styled from 'styled-components';
 
 import '../App.css';
 import './HeroSection.css';
 
-function HeroSection() {
+const theme = {
+  white: {
+    default: '#3f51b5',
+    hover: '#283593'
+  }
+}
+
+
+const Button = styled.button`
+  background: transparent;
+  color: white;
+  padding: 15px 29px;
+  border-radius: 2px;
+  text-transform: uppercase; 
+  border: 1px solid white;
+  margin: 0.5em 1em;
+  cursor: pointer;
+  transition: ease background-color 250ms;
+`
+
+export default function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/assets/videos/video-1.mp4' autoPlay loop muted />
@@ -12,25 +32,14 @@ function HeroSection() {
       <p>¿A qué estas esperando?</p>
 
       <div className='hero-btns'>
-        <Button 
-          variant="outlined" 
-          href="https://gitlab.com/ivansantaana"
-          size="large"
+        <a href="https://gitlab.com/ivansantaana" target="_blank">
+          <Button> VISITA MI GITLAB </Button>
+        </a>
 
-        > VISITA MI GITLAB </Button>
-        <Button 
-          variant="contained"
-          size="large"
-
-        > DESCARGA MI CV </Button>
-
+        
+          <Button theme="white">DESCARGA MI CV</Button>
 
       </div>
     </div>
   );
 }
-
-export default HeroSection;
-
-//<Button>VISITA MI GITLAB</Button>
-// <Button>DESCARGA MI CV</Button>

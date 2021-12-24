@@ -5,6 +5,7 @@ import '../App.css';
 import './HeroSection.css';
 
 const GitlabButton = styled.button`
+  display: inline-block;
   background: transparent;
   color: white;
   padding: 15px 29px;
@@ -22,19 +23,20 @@ const GitlabButton = styled.button`
 `
 
 const CVButton = styled.button`
-background: white;
-color: black;
-padding: 15px 29px;
-border-radius: 2px;
-text-transform: uppercase; 
-border: 1px solid white;
-margin: 0.5em 1em;
-cursor: pointer;
-font-size: 1em;
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 15px 29px;
+  border-radius: 2px;
+  text-transform: uppercase; 
+  border: 1px solid white;
+  margin: 0.5em 1em;
+  cursor: pointer;
+  font-size: 1em;
 
-&:hover {
-  background: blue;
-}
+  &:hover {
+    background: blue;
+  }
 `
 
 export default function HeroSection() {

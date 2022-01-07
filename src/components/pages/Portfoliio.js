@@ -11,34 +11,34 @@ function Portfolio() {
             <ul className='cards__items'>
               <CardItem
                 src='images/img-9.jpg'
-                text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                label='Adventure'
+                text='Un simple reproductor de música para escuchar las canciones y covers de Ane Gómez.'
+                label='Android APP'
                 path='/portfolio'
               />
               <CardItem
                 src='images/img-2.jpg'
-                text='Travel through the Islands of Bali in a Private Cruise'
-                label='Luxury'
+                text='Miniaturas, logos, banners y edición de video en el canal de Ane Gómez.'
+                label='YT Channel'
                 path='/portfolio'
               />
             </ul>
             <ul className='cards__items'>
               <CardItem
-                src='images/img-3.jpg'
-                text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                label='Mystery'
+                src='images/img-3.png'
+                text='Página web de GoodFoodTalk.'
+                label='Website'
                 path='/portfolio'
               />
               <CardItem
-                src='images/img-4.jpg'
-                text='Experience Football on Top of the Himilayan Mountains'
-                label='Adventure'
+                src='images/img-4.png'
+                text='Aplicación para WildForest'
+                label='Android APP'
                 path='/portfolio'
               />
               <CardItem
-                src='images/img-8.jpg'
-                text='Ride through the Sahara Desert on a guided camel tour'
-                label='Adrenaline'
+                src='images/img-8.png'
+                text='Web K-BERRI BEAUTY con multi-idioma, sesiones, sección de productos y carrito de la compra'
+                label='Website'
                 path='/portfolio'
               />
             </ul>

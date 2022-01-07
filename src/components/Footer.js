@@ -11,7 +11,7 @@ function Footer() {
             <Link to='/' className='social-logo'> IV </Link>
           </div>
 
-          <small class='website-rights'>IV © 2020</small>
+          <small class='website-rights'>IV © 2022</small>
           
           <div class='social-icons'>
             <Link class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'> <i class='fab fa-facebook-f' /> </Link>

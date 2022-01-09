@@ -1,33 +1,112 @@
-
-/* BANNER */
-.background {
-    height: 100%;
+            /* ENTIRE SCREEN */
+.About_Me_Screen {
+    position: relative;
     width: 100%;
-}
-/* RESUME */
-/* AVATAR BOX */
-.resume {
-    padding: 4%;
-}
-.name_surname {
-    text-transform: uppercase;
-    font-size: 190%;
-    font-weight: bold;
-}
-.job {
-    font-size: 100%;
-    color: #777
-}
-.resume_image{
-    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-}
-.avatar {
-    width: 30%;
+    height: 100%;
 }
 
+            /* Banner section*/
+.Banner {
+    width: 100%;
+    height: 100%;
+}
+    .banner_img {
+        width: 100%;
+        height: 100%;
+    }
 
-
-
-
-
+            /* Resume section*/
+.Resume {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+    .Principal_data {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+        .name {
+            text-transform: uppercase;
+            font-size: 150%;
+            font-weight: bold;
+        }
+        .job {
+            font-size: 110%;
+            font-weight: lighter;
+            color: #777
+        }
+        .avatar {
+            width: 50%;
+        }
+    .Contact_data {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+        .contact_data {
+            text-transform: uppercase;
+            font-size: 100%;
+            font-weight: bold;
+            margin-left: 2%;
+            color: #4E3B31;
+        }
+        .contact_data_info {
+            font-size: 80%;
+            margin-left: 2%;
+            color: #474B4E;
+        }
+    .Abilities_data {
+        margin-top: 3%;
+        margin-left: 5%;  
+    }
+        .abilities_data {
+            text-transform: uppercase;
+            font-size: 100%;
+            font-weight: bold;
+            margin-left: 2%;
+            color: #4E3B31; 
+        }
+        .abilities_data_info {
+            font-size: 80%;
+            margin-left: 2%;
+            color: #474B4E;
+        }
+        
+            /* About Me section*/
+.About_Me {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+}
+    .About_me_principal_info {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+        .About_Me_Title {
+            text-transform: uppercase;
+            font-size: 120%;
+            font-weight: bold !important;
+            color: #4E3B31;
+        }
+        .About_Me_text {
+            font-size: 90% !important;
+            margin-left: 9% !important;
+            color: #474B4E !important;
+        }
+    .About_me_Academic_info {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+        .academic_title {
+            opacity: 0.8 !important;
+            text-transform: uppercase !important;
+            font-size: 15px !important;
+            font-weight: bold !important;
+            padding: 7px !important;
+            color: black !important;
+        }
+        .academic_text {
+            font-size: 90% !important;
+            margin-left: 6% !important;
+            color: #474B4E !important;
+        }

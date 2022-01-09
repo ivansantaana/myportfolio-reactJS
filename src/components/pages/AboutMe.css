@@ -41,7 +41,7 @@
             width: 65%;
         }
     .Contact_data {
-        margin-top: 3%;
+        margin-top: 4%;
         margin-left: 22%;
     }
         .contact_data {
@@ -50,18 +50,13 @@
             font-weight: bold;
             color: #92B7BD;
         }
-        .ubicación {
-            width: 10%;
-            height: 10%;
-        }
         .contact_data_info {
             font-size: 100%;
             color: #474B4E;
             font-family: Arial, Helvetica, sans-serif;
-
         }
     .Abilities_data {
-        margin-top: 3%;
+        margin-top: 4%;
         margin-left: 22%;  
     }
         .abilities_data {
@@ -86,8 +81,7 @@
     .About_me_principal_info {
         margin-top: 13%;
         margin-left: 5%;
-        margin-right: 20%;
-
+        margin-right: 15%;
     }
         .About_Me_Title {
             text-transform: uppercase;
@@ -97,8 +91,9 @@
         }
             .About_Me_text {
                 font-size: 110% !important;
-                margin-left: 9% !important;
                 color: #474B4E !important;
+                font-family: Arial, Helvetica, sans-serif;
+
             }
     .About_me_Academic_info {
         margin-top: 5%;
@@ -115,13 +110,13 @@
                 text-transform: uppercase !important;
                 font-size: 110% !important;
                 font-weight: bold !important;
-                margin-left: 2%;
                 color: black !important;
             }
             .academic_text {
                 font-size: 110% !important;
-                margin-left: 9% !important;
+                margin-left: 2% !important;
                 color: #474B4E !important;
+                font-family: Arial, Helvetica, sans-serif;
             }
     .Skills {
         margin-top: 5%;
@@ -135,8 +130,12 @@
         }
             .skills_languages{
                 font-size: 110% !important;
-                margin-left: 2%;
                 color: #474B4E !important;
+            }
+            .skills_text {
+                font-size: 110% !important;
+                color: #474B4E !important;
+                font-family: Arial, Helvetica, sans-serif;      
             }
             .skills_technologies{
                 font-size: 110% !important;

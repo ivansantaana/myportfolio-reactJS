@@ -1,4 +1,12 @@
 import React from "react";
+import { TiLocation } from "react-icons/ti";
+import { SiGmail } from "react-icons/si";
+import { AiOutlineGitlab, AiFillLinkedin, AiFillHtml5 } from "react-icons/ai";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { IoLogoCss3 } from "react-icons/io";
+import { DiJavascript1, DiReact, DiNodejsSmall, DiLinux } from "react-icons/di";
+import { FiTrello } from "react-icons/fi";
+
 import './AboutMe.css';
  
 export default function AboutMe() {
@@ -19,20 +27,19 @@ export default function AboutMe() {
 
           <div className="Contact_data">
             <text className='contact_data'>DATOS DE CONTACTO</text> <br></br>
-              <text className='contact_data_info'>Donostia - San Sebastián</text> <br></br>
-              <text className='contact_data_info'>ivansantanacalle@gmail.com</text> <br></br>
-              <text className='contact_data_info'>Linkedin</text> <br></br>
-                <text className='contact_data_info'>https://gitlab.com/ivansantaana</text> <br></br>
+              <text className="contact_data_info"><TiLocation /> Donostia - San Sebastian</text> <br></br>
+              <text className="contact_data_info"><SiGmail /> ivansantanacalle@gmail.com</text> <br></br>
+              <text className="contact_data_info"><AiFillLinkedin /> Linkedin</text> <br></br>
+              <text className="contact_data_info"><AiOutlineGitlab /> https://gitlab.com/ivansantaana</text> <br></br>
           </div>
 
           <div className="Abilities_data">
               <text className='abilities_data'>HABILIDADES</text> <br></br>
-                <text className='abilities_data_info'> - Fuertes habilidades de comunicación </text> <br></br>
-                <text className='abilities_data_info'> - Trabajo en equipo </text> <br></br>
-                <text className='abilities_data_info'> - Resolución del problemas </text> <br></br>
-                <text className='abilities_data_info'> - Ética de trabajo </text> <br></br>
-                <text className='abilities_data_info'> - Gestión de sitios web </text> <br></br>
-                <text className='abilities_data_info'> - Redes sociales </text> <br></br>
+              <text className="abilities_data_info"><MdKeyboardArrowRight /> Fuertes habilidades de comunicación</text> <br></br>
+              <text className="abilities_data_info"><MdKeyboardArrowRight /> Trabajo en equipo</text> <br></br>
+              <text className="abilities_data_info"><MdKeyboardArrowRight /> Resolución de problemas</text> <br></br>
+              <text className="abilities_data_info"><MdKeyboardArrowRight /> Diseño y gestión de sitios web</text> <br></br>
+              <text className="abilities_data_info"><MdKeyboardArrowRight /> Redes sociales</text> <br></br>
           </div>
         </div>
 
@@ -47,28 +54,37 @@ export default function AboutMe() {
             <text className="About_Me_Studies"> Estudios</text> <br></br>
 
               <text className="academic_title"> AEG BERRIKUNTZA PROFESIONALEN ESKOLA </text> <br></br>
-              <text className="academic_text"> - Técnico Superior en Desarrollo de Aplicaciones Web </text> <br></br>
-              <text className="academic_text"> - Curso de usabilidad Web (Lanbide) </text> <br></br>
-              <text className="academic_text"> - Curso de gestión de proyectos con metodologías ágiles SCRUM (Lanbide)</text> <br></br>
+              <text className="academic_text"><MdKeyboardArrowRight /> Técnico Superior en Desarrollo de Aplicaciones Web</text> <br></br>
+              <text className="academic_text"><MdKeyboardArrowRight /> Lanbide | Curso de usabilidad Web</text> <br></br>
+              <text className="academic_text"><MdKeyboardArrowRight /> Lanbide | Curso de gestión de proyectos con metodologías ágiles SCRUM</text> <br></br>
               <text className="academic_title"> UNIVERSIDAD EUROPEA DEL ATÁNTICO </text> <br></br>
-              <text className="academic_text"> - Ciencias de la Actividad Física y del Deporte. (3 cursos) </text> <br></br>
+              <text className="academic_text"><MdKeyboardArrowRight /> Ciencias de la Actividad Física y del Deporte. (3 cursos)</text> <br></br>
+
               <text className="academic_title"> LA SALLE DONOSTIA IKASTETXEA. </text> <br></br>
-              <text className="academic_text"> - Graduado en Bachillerato </text> <br></br>
-              <text className="academic_text"> - Graduado en E.S.O </text>
+              <text className="academic_text"><MdKeyboardArrowRight /> Graduado en Bachillerato</text> <br></br>
+              <text className="academic_text"><MdKeyboardArrowRight /> Graduado en E.S.O</text> <br></br>
           </div>
 
           <div className="Skills">
             <text className="skills_title"> SKILLS</text> <br></br>
-              <text className="skills_languages"> Conocimientos básicos de: HTML, CSS, JavaScript, React, React Native y Node.js</text> <br></br>
-              <text className="skills_technologies"> Git (GitHub,GitLab), Trello</text> <br></br>
-              <text className="skills_sistemas"> Entorno de desarrollo Linux</text> <br></br>
+              <text className="skills_languages"> Conocimientos básicos de:</text> <br></br>
+                <text className="skills_text"><AiFillHtml5 /> HTML</text> <br></br>
+                <text className="skills_text"><IoLogoCss3 /> CSS</text> <br></br>
+                <text className="skills_text"><DiJavascript1 /> JavaScript</text> <br></br>
+                <text className="skills_text"><DiReact /> React / React Native</text> <br></br>
+                <text className="skills_text"><DiNodejsSmall /> Node.js</text> <br></br>
+                
+              <text className="skills_languages"><AiOutlineGitlab /> Git (GitHub,GitLab)</text> <br></br>
+              <text className="skills_languages"><FiTrello /> Trello</text> <br></br>
+              <text className="skills_languages"><DiLinux /> Entorno de desarrollo Linux</text> <br></br>
           </div>
 
           <div className="Languages">
             <text className="languages_title"> IDIOMAS</text> <br></br>
-              <text className="languages_text">- Español: lengua materna. <br></br> - Euskera: nivel avanzado C1. <br></br> - Inglés: nivel B2-C1</text> <br></br>
+            <text className="languages_text"><MdKeyboardArrowRight /> Español: lengua materna.</text> <br></br>
+            <text className="languages_text"><MdKeyboardArrowRight /> Euskera: nivel avanzado C1</text> <br></br>
+            <text className="languages_text"><MdKeyboardArrowRight /> Inglés: nivel B2-C1</text> <br></br>
           </div>
-
         </div>
       </div>
     )

@@ -1,8 +1,33 @@
+
+/* BANNER */
 .background {
     height: 100%;
     width: 100%;
 }
-.qr-code {
-    height: 20%;
-    width: 20%;
+/* RESUME */
+/* AVATAR BOX */
+.resume {
+    padding: 4%;
 }
+.name_surname {
+    text-transform: uppercase;
+    font-size: 190%;
+    font-weight: bold;
+}
+.job {
+    font-size: 100%;
+    color: #777
+}
+.resume_image{
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+.avatar {
+    width: 30%;
+}
+
+
+
+
+
+

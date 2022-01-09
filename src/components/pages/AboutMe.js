@@ -10,27 +10,25 @@ export default function AboutMe() {
 
         <div className="Resume">
           <div className="Principal_data">
-            <text className="name">IVÁN SANTANA</text> <br></br>
+            <text className="name">IVÁN SANTANA CALLE</text> <br></br>
             <text className="job">Frontend developer</text>
             <figure className='resume_image'>
-                <img className='avatar' src={require("./AboutMeAssets/avatar.jpg")} alt=""/>
+                <img className='avatar' src={require("./AboutMeAssets/avatar.png")} alt=""/>
             </figure>
           </div>
 
           <div className="Contact_data">
             <text className='contact_data'>DATOS DE CONTACTO</text> <br></br>
-                <text className='contact_data_info'>Nombre y apellidos: Iván Santana Calle</text> <br></br>
-                <text className='contact_data_info'>Fecha de nacimiento: 02 / 09 / 1998</text> <br></br>
-                <text className='contact_data_info'>Telf.: +34 665-61-30-08</text> <br></br>
-                <text className='contact_data_info'>email: ivansantanacalle@gmail.com</text> <br></br>
-                <text className='contact_data_info'>Dirección: Intxaurrondo, Baratzategui Nº3</text> <br></br>
+              <text className='contact_data_info'>Donostia - San Sebastián</text> <br></br>
+              <text className='contact_data_info'>ivansantanacalle@gmail.com</text> <br></br>
+              <text className='contact_data_info'>Linkedin</text> <br></br>
+                <text className='contact_data_info'>https://gitlab.com/ivansantaana</text> <br></br>
           </div>
 
           <div className="Abilities_data">
               <text className='abilities_data'>HABILIDADES</text> <br></br>
                 <text className='abilities_data_info'> - Fuertes habilidades de comunicación </text> <br></br>
                 <text className='abilities_data_info'> - Trabajo en equipo </text> <br></br>
-                <text className='abilities_data_info'> - Proactividad e iniciativa </text> <br></br>
                 <text className='abilities_data_info'> - Resolución del problemas </text> <br></br>
                 <text className='abilities_data_info'> - Ética de trabajo </text> <br></br>
                 <text className='abilities_data_info'> - Gestión de sitios web </text> <br></br>

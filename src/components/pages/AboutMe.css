@@ -19,7 +19,7 @@
 .Resume {
     position: absolute;
     width: 50%;
-    height: 100%;
+    height: 106%;
 }
     .Principal_data {
         margin-top: 3%;
@@ -31,13 +31,14 @@
             font-weight: bold;
         }
         .job {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 100%;
             font-weight: lighter;
             color: #777
         }
         .avatar {
             margin-top: 2%;
-            width: 70%;
+            width: 65%;
         }
     .Contact_data {
         margin-top: 3%;
@@ -47,13 +48,17 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold;
-            margin-left: 2%;
-            color: #4E3B31;
+            color: #92B7BD;
+        }
+        .ubicación {
+            width: 10%;
+            height: 10%;
         }
         .contact_data_info {
             font-size: 100%;
-            margin-left: 2%;
             color: #474B4E;
+            font-family: Arial, Helvetica, sans-serif;
+
         }
     .Abilities_data {
         margin-top: 3%;
@@ -63,12 +68,11 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold;
-            margin-left: 2%;
-            color: #4E3B31; 
+            color: #92B7BD; 
         }
         .abilities_data_info {
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 100%;
-            margin-left: 2%;
             color: #474B4E;
         }
         
@@ -76,7 +80,7 @@
 .About_Me {
     position: absolute;
     width: 50%;
-    height: 100%;
+    height: 106%;
     margin-left: 50%;
 }
     .About_me_principal_info {
@@ -89,7 +93,7 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold !important;
-            color: #4E3B31;
+            color: #92B7BD;
         }
             .About_Me_text {
                 font-size: 110% !important;
@@ -104,7 +108,7 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold !important;
-            color: #4E3B31;
+            color: #92B7BD;
         }
             .academic_title {
                 opacity: 0.8 !important;
@@ -127,7 +131,7 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold !important;
-            color: #4E3B31;
+            color: #92B7BD;
         }
             .skills_languages{
                 font-size: 110% !important;
@@ -152,7 +156,7 @@
             text-transform: uppercase;
             font-size: 130%;
             font-weight: bold !important;
-            color: #4E3B31;
+            color: #92B7BD;
         }
         .languages_text {
             font-size: 110% !important;

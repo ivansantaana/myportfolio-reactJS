@@ -23,50 +23,51 @@
 }
     .Principal_data {
         margin-top: 3%;
-        margin-left: 5%;
+        margin-left: 22%;
     }
         .name {
             text-transform: uppercase;
-            font-size: 150%;
+            font-size: 180%;
             font-weight: bold;
         }
         .job {
-            font-size: 110%;
+            font-size: 100%;
             font-weight: lighter;
             color: #777
         }
         .avatar {
-            width: 50%;
+            margin-top: 2%;
+            width: 70%;
         }
     .Contact_data {
         margin-top: 3%;
-        margin-left: 5%;
+        margin-left: 22%;
     }
         .contact_data {
             text-transform: uppercase;
-            font-size: 100%;
+            font-size: 130%;
             font-weight: bold;
             margin-left: 2%;
             color: #4E3B31;
         }
         .contact_data_info {
-            font-size: 80%;
+            font-size: 100%;
             margin-left: 2%;
             color: #474B4E;
         }
     .Abilities_data {
         margin-top: 3%;
-        margin-left: 5%;  
+        margin-left: 22%;  
     }
         .abilities_data {
             text-transform: uppercase;
-            font-size: 100%;
+            font-size: 130%;
             font-weight: bold;
             margin-left: 2%;
             color: #4E3B31; 
         }
         .abilities_data_info {
-            font-size: 80%;
+            font-size: 100%;
             margin-left: 2%;
             color: #474B4E;
         }
@@ -79,34 +80,82 @@
     margin-left: 50%;
 }
     .About_me_principal_info {
-        margin-top: 5%;
+        margin-top: 13%;
         margin-left: 5%;
+        margin-right: 20%;
+
     }
         .About_Me_Title {
             text-transform: uppercase;
-            font-size: 120%;
+            font-size: 130%;
             font-weight: bold !important;
             color: #4E3B31;
         }
-        .About_Me_text {
-            font-size: 90% !important;
-            margin-left: 9% !important;
-            color: #474B4E !important;
-        }
+            .About_Me_text {
+                font-size: 110% !important;
+                margin-left: 9% !important;
+                color: #474B4E !important;
+            }
     .About_me_Academic_info {
         margin-top: 5%;
         margin-left: 5%;
     }
-        .academic_title {
-            opacity: 0.8 !important;
-            text-transform: uppercase !important;
-            font-size: 15px !important;
+        .About_Me_Studies{
+            text-transform: uppercase;
+            font-size: 130%;
             font-weight: bold !important;
-            padding: 7px !important;
-            color: black !important;
+            color: #4E3B31;
         }
-        .academic_text {
-            font-size: 90% !important;
-            margin-left: 6% !important;
+            .academic_title {
+                opacity: 0.8 !important;
+                text-transform: uppercase !important;
+                font-size: 110% !important;
+                font-weight: bold !important;
+                margin-left: 2%;
+                color: black !important;
+            }
+            .academic_text {
+                font-size: 110% !important;
+                margin-left: 9% !important;
+                color: #474B4E !important;
+            }
+    .Skills {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+        .skills_title{
+            text-transform: uppercase;
+            font-size: 130%;
+            font-weight: bold !important;
+            color: #4E3B31;
+        }
+            .skills_languages{
+                font-size: 110% !important;
+                margin-left: 2%;
+                color: #474B4E !important;
+            }
+            .skills_technologies{
+                font-size: 110% !important;
+                margin-left: 2%;
+                color: #474B4E !important;
+            }
+            .skills_sistemas{
+                font-size: 110% !important;
+                margin-left: 2%;
+                color: #474B4E !important;
+            }
+    .Languages{
+        margin-top: 5%;
+        margin-left: 5%; 
+    }
+        .languages_title {
+            text-transform: uppercase;
+            font-size: 130%;
+            font-weight: bold !important;
+            color: #4E3B31;
+        }
+        .languages_text {
+            font-size: 110% !important;
+            margin-left: 2%;
             color: #474B4E !important;
         }

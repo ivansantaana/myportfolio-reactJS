@@ -10,8 +10,8 @@ export default function AboutMe() {
 
         <div className="Resume">
           <div className="Principal_data">
-            <text className="name">IVÁN SANTANA CALLE</text> <br></br>
-            <text className="job">Front-end developer</text>
+            <text className="name">IVÁN SANTANA</text> <br></br>
+            <text className="job">Frontend developer</text>
             <figure className='resume_image'>
                 <img className='avatar' src={require("./AboutMeAssets/avatar.jpg")} alt=""/>
             </figure>
@@ -39,38 +39,39 @@ export default function AboutMe() {
         </div>
 
 
-
         <div className="About_Me">
-
           <div className="About_me_principal_info">
-            <text className="About_Me_Title"> SOBRE MÍ</text> <br></br>
-            <text className="About_Me_text"> Mi objetivo principal es formar parte de un equipo profesional, en el que se reconozcan los logros y éxitos de cada uno en un abmiente de trabajo agradable. <br></br>Soy una persona joven, formal y llena de energía para sumarme a un equipo de trabajo, en el que aportar mis conocimientos y formación. De esta forma, poder aumentar mi experiencia profesional en un entorno real, fuera del ámbito académico.</text>
+            <text className="About_Me_Title"> PERFIL PROFESIONAL</text> <br></br>
+              <text className="About_Me_text"> Mi objetivo principal es formar parte de un equipo profesional, en el que se reconozcan los logros y éxitos de cada uno en un abmiente de trabajo agradable. La mayor parte de mi experiencia con mis proyectos personales está relacionada con el diseño de aplicaciones en React y React Native. <br></br>Soy una persona joven, formal y llena de energía lista para sumarme a un equipo de trabajo, en el que aportar mis conocimientos y formación. De esta forma, poder aumentar mi experiencia profesional en un entorno real, fuera del ámbito académico.</text>
           </div>
 
           <div className="About_me_Academic_info">
-            <text className="academic_title"> AEG BERRIKUNTZA PROFESIONALEN ESKOLA </text> <br></br>
-            <text className="academic_text"> - Técnico Superior en Desarrollo de Aplicaciones Web </text> <br></br>
-          
-            <text className="academic_title"> UNIVERSIDAD EUROPEA DEL ATÁNTICO </text> <br></br>
-            <text className="academic_text"> - Ciencias de la Actividad Física y del Deporte. (3 cursos) </text> <br></br>
+            <text className="About_Me_Studies"> Estudios</text> <br></br>
 
-            <text className="academic_title"> LA SALLE DONOSTIA IKASTETXEA. </text> <br></br>
-            <text className="academic_text"> - Graduado en Bachillerato </text> <br></br>
-            <text className="academic_text"> - Graduado en E.S.O </text>
+              <text className="academic_title"> AEG BERRIKUNTZA PROFESIONALEN ESKOLA </text> <br></br>
+              <text className="academic_text"> - Técnico Superior en Desarrollo de Aplicaciones Web </text> <br></br>
+              <text className="academic_text"> - Curso de usabilidad Web (Lanbide) </text> <br></br>
+              <text className="academic_text"> - Curso de gestión de proyectos con metodologías ágiles SCRUM (Lanbide)</text> <br></br>
+              <text className="academic_title"> UNIVERSIDAD EUROPEA DEL ATÁNTICO </text> <br></br>
+              <text className="academic_text"> - Ciencias de la Actividad Física y del Deporte. (3 cursos) </text> <br></br>
+              <text className="academic_title"> LA SALLE DONOSTIA IKASTETXEA. </text> <br></br>
+              <text className="academic_text"> - Graduado en Bachillerato </text> <br></br>
+              <text className="academic_text"> - Graduado en E.S.O </text>
           </div>
-
-
-
-
-
-
-
 
           <div className="Skills">
-          
+            <text className="skills_title"> SKILLS</text> <br></br>
+              <text className="skills_languages"> Conocimientos básicos de: HTML, CSS, JavaScript, React, React Native y Node.js</text> <br></br>
+              <text className="skills_technologies"> Git (GitHub,GitLab), Trello</text> <br></br>
+              <text className="skills_sistemas"> Entorno de desarrollo Linux</text> <br></br>
           </div>
-        </div>
 
+          <div className="Languages">
+            <text className="languages_title"> IDIOMAS</text> <br></br>
+              <text className="languages_text">- Español: lengua materna. <br></br> - Euskera: nivel avanzado C1. <br></br> - Inglés: nivel B2-C1</text> <br></br>
+          </div>
+
+        </div>
       </div>
     )
 }

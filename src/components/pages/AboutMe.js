@@ -29,17 +29,12 @@ export default function AboutMe() {
             <text className='contact_data'>DATOS DE CONTACTO</text> <br></br>
               <text className="contact_data_info"><TiLocation /> Donostia - San Sebastian</text> <br></br>
               <text className="contact_data_info"><SiGmail /> ivansantanacalle@gmail.com</text> <br></br>
-              <a href="https://www.facebook.com/ivansantaanacalle/" target="_blank">    
-                <text className="contact_data_info"><AiFillLinkedin /> https://www.linkedin.com/in/iv%C3%A1n-santana-calle-9b624622a/ </text> <br></br>
+              <a href="https://www.linkedin.com/in/ivan-santana-calle/" target="_blank">    
+                <text className="contact_data_info"><AiFillLinkedin /> Linkedin </text> <br></br>
               </a>
-              <a href="https://www.facebook.com/ivansantaanacalle/" target="_blank">    
-                <text className="contact_data_info"><AiOutlineGitlab /> https://gitlab.com/ivansantaana</text> <br></br>
-              </a>
-
-
-
-
-              
+              <a href="https://gitlab.com/ivansantaana" target="_blank">    
+                <text className="contact_data_info"><AiOutlineGitlab /> GitLab</text> <br></br>
+              </a>  
           </div>
 
           <div className="Abilities_data">
@@ -56,7 +51,7 @@ export default function AboutMe() {
         <div className="About_Me">
           <div className="About_me_principal_info">
             <text className="About_Me_Title"> PERFIL PROFESIONAL</text> <br></br>
-              <text className="About_Me_text"> Mi objetivo principal es formar parte de un equipo profesional, en el que se reconozcan los logros y éxitos de cada uno en un abmiente de trabajo agradable. La mayor parte de mi experiencia con mis proyectos personales está relacionada con el diseño de aplicaciones en React y React Native. <br></br>Soy una persona joven, formal y llena de energía lista para sumarme a un equipo de trabajo, en el que aportar mis conocimientos y formación. De esta forma, poder aumentar mi experiencia profesional en un entorno real, fuera del ámbito académico.</text>
+              <text className="About_Me_text"> Mi objetivo principal es formar parte de un equipo profesional, en el que se reconozcan los logros y éxitos de cada uno en un abmiente de trabajo agradable. La mayor parte de mi experiencia con mis proyectos personales está relacionada con el diseño de aplicaciones en React y React Native. <br></br><br></br>Soy una persona joven, formal y llena de energía lista para sumarme a un equipo de trabajo, en el que aportar mis conocimientos y formación. De esta forma, poder aumentar mi experiencia profesional en un entorno real, fuera del ámbito académico.</text>
           </div>
 
           <div className="About_me_Academic_info">

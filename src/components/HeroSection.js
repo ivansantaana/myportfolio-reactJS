@@ -1,4 +1,7 @@
 import React from 'react';
+
+import DownloadLink from "react-download-link";
+import curriculum from './curriculum.pdf'
 import styled from 'styled-components';
 
 import '../App.css';
@@ -51,7 +54,8 @@ export default function HeroSection() {
           <GitlabButton>VISITA MI GITLAB</GitlabButton>
         </a>
         
-        <CVButton primary>DESCARGA MI CV</CVButton>
+        <a href={curriculum} download={"curriculum.pdf"}> 
+          <CVButton>DESCARGAR MI CV</CVButton></a>
       </div>
     </div>
   );

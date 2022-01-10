@@ -29,8 +29,17 @@ export default function AboutMe() {
             <text className='contact_data'>DATOS DE CONTACTO</text> <br></br>
               <text className="contact_data_info"><TiLocation /> Donostia - San Sebastian</text> <br></br>
               <text className="contact_data_info"><SiGmail /> ivansantanacalle@gmail.com</text> <br></br>
-              <text className="contact_data_info"><AiFillLinkedin /> Linkedin</text> <br></br>
-              <text className="contact_data_info"><AiOutlineGitlab /> https://gitlab.com/ivansantaana</text> <br></br>
+              <a href="https://www.facebook.com/ivansantaanacalle/" target="_blank">    
+                <text className="contact_data_info"><AiFillLinkedin /> https://www.linkedin.com/in/iv%C3%A1n-santana-calle-9b624622a/ </text> <br></br>
+              </a>
+              <a href="https://www.facebook.com/ivansantaanacalle/" target="_blank">    
+                <text className="contact_data_info"><AiOutlineGitlab /> https://gitlab.com/ivansantaana</text> <br></br>
+              </a>
+
+
+
+
+              
           </div>
 
           <div className="Abilities_data">

@@ -57,11 +57,11 @@ export default function AboutMe() {
           <div className="About_me_Academic_info">
             <text className="About_Me_Studies"> Estudios</text> <br></br>
 
-              <text className="academic_title"> AEG BERRIKUNTZA PROFESIONALEN ESKOLA </text> <br></br>
+              <text className="academic_title"> 2020-2022 | AEG BERRIKUNTZA PROFESIONALEN ESKOLA </text> <br></br>
               <text className="academic_text"><MdKeyboardArrowRight /> Técnico Superior en Desarrollo de Aplicaciones Web</text> <br></br>
               <text className="academic_text"><MdKeyboardArrowRight /> Lanbide | Curso de usabilidad Web</text> <br></br>
               <text className="academic_text"><MdKeyboardArrowRight /> Lanbide | Curso de gestión de proyectos con metodologías ágiles SCRUM</text> <br></br>
-              <text className="academic_title"> UNIVERSIDAD EUROPEA DEL ATÁNTICO </text> <br></br>
+              <text className="academic_title"> 2018 | UNIVERSIDAD EUROPEA DEL ATÁNTICO </text> <br></br>
               <text className="academic_text"><MdKeyboardArrowRight /> Ciencias de la Actividad Física y del Deporte. (3 cursos)</text> <br></br>
 
               <text className="academic_title"> LA SALLE DONOSTIA IKASTETXEA. </text> <br></br>
